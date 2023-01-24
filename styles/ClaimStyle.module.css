@@ -1,0 +1,74 @@
+.HeaderContainer {
+  width: 100%;
+  height: 100px;
+  min-width: 318px;
+  display: flex;
+  background: #000000;
+}
+
+/* .Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+} */
+
+.Logo {
+  display: none;
+  opacity: 0;
+  width: 180px;
+}
+
+.IconLogin {
+  width: 24px;
+  height: 21px;
+  cursor: pointer;
+}
+.btnsHeader {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.btnsTranslate {
+  display: flex;
+  margin-right: 20px;
+}
+
+.btnsDisconnect {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .HeaderContainer {
+    padding: 0 10px 0 0;
+  }
+  .btnsHeader {
+    margin: 0;
+    justify-content: flex-end;
+  }
+  .btnsTranslate {
+    margin: 0 10px 0 0;
+  }
+  .img {
+    width: 20px;
+    margin-right: 10px;
+  }
+}
+
+/* @media (min-width: 1280px) {
+  .Logo {
+    display: flex;
+    opacity: 1;
+    width: 180px;
+  }
+
+  .btnsHeader {
+    width: 100%;
+    justify-content: end;
+  }
+} */

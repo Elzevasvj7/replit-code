@@ -1,0 +1,313 @@
+.container {
+  position: relative;
+  display: grid;
+  background: #000000;
+}
+
+.Background {
+  position: absolute;
+  top: -90px;
+  left: -60px;
+  position: absolute;
+  z-index: -1;
+}
+
+.CanvasMap {
+  height: 300px;
+}
+
+.MapImgCavas {
+  display: block;
+  margin-top: -23px;
+}
+
+.InfoSection {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0px;
+  z-index: 10;
+  padding: 0 0 0 0;
+}
+
+.InfoSection h1 {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.08em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* .InfoSection {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+  margin-bottom: 40px;
+} */
+.Subtitle {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: GothamBook;
+  width: 400px;
+}
+
+.SecondSubtitles h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  line-height: 1.4rem;
+}
+
+.SecondSubtitles p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  font-family: GothamBook;
+  width: 390px;
+}
+.containerBtnClaim button {
+  margin-top: 200px;
+}
+
+.SecondSubtitles {
+  display: flex;
+  justify-content: center;
+}
+
+.ImageBackground {
+  width: 318px;
+  height: 410px;
+}
+
+.containerBtnClaim {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: GothamBold;
+}
+.containerBtnClaim button:hover {
+  background: #ffffff;
+  box-shadow: 0px 4px 26px rgba(255, 255, 255, 0.68);
+}
+
+.titleBtnMint {
+  font-family: GothamBold;
+}
+
+.MapSection {
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.MapImg {
+  width: 220px;
+  height: 212px;
+  display: none;
+}
+
+.IconArrow {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.ButtonClaim {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.ColorsContent {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 900px) {
+  .InfoSection {
+    padding: 0 10px 0 10px;
+    align-items: center;
+  }
+  .InfoSection h1 {
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin: 0 0 5px 0;
+  }
+  .Subtitle {
+    font-size: 14px;
+    line-height: 13px;
+    width: 280px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .SecondSubtitles h3 {
+    font-size: 15px;
+    font-size: 14px;
+    line-height: 13px;
+  }
+  .SecondSubtitles p {
+    line-height: 15px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 278px;
+  }
+  .containerBtnClaim a {
+    font-size: 14px;
+    padding: 0;
+  }
+  .Message {
+    font-family: GothamBook;
+    line-height: 18px;
+  }
+  .containerBtnClaim button {
+    margin-top: 0;
+  }
+  .ColorsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 0;
+  }
+  .ColorIcons {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+  .ColorsContent {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .ColorsContent p {
+    font-size: 12px;
+    margin: 0;
+  }
+  .ColorsContent img {
+    width: 10px;
+    height: 10px;
+  }
+  .ColorItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .ImageBackground {
+    width: 525px;
+    height: 550px;
+  }
+
+  .ColorsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .ColorIcons {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+
+  .InfoSection h1 {
+    letter-spacing: 0.38em;
+  }
+  .InfoSection {
+    font-size: 1.2rem;
+  }
+
+  .MapImg {
+    width: 430px;
+    height: 350px;
+  }
+  .SecondSubtitles {
+    display: flex;
+    justify-content: center;
+  }
+  .containerBtnClaim button {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    display: flex;
+    width: 100%;
+    height: 560px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .MFeaturedImage {
+    width: 500px;
+  }
+
+  .CanvasMap {
+    width: 500px;
+  }
+
+  .MapSection {
+    display: flex;
+    flex-direction: column;
+    width: 772px;
+    margin-right: 0px;
+  }
+
+  .ImageBackground {
+    width: 650px;
+    height: 710px;
+  }
+
+  .MapImgCavas {
+    display: inline-block;
+    width: 500px;
+  }
+
+  .MapImg {
+    display: none;
+  }
+
+  .ColorsContainer {
+    /* display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px; */
+  }
+  .ColorText {
+    margin: 0;
+  }
+
+  .ColorItems {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .ColorIcons {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+  .containerBtnClaim button {
+    margin-top: 100px;
+  }
+}
+@media (max-height: 900px) {
+  .InfoSection {
+    margin-top: 20px;
+  }
+}
+@media (max-height: 640px) {
+  .InfoSection {
+    margin-top: 0;
+  }
+}

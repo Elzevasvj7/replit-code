@@ -1,0 +1,74 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 40;
+}
+
+.contentModal {
+  width: 580px;
+  height: 405px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.83);
+  border: 2px solid #ffffff;
+  border-radius: 44px;
+  color: #ffffff;
+  display: flex;
+}
+
+.buttonClose {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  z-index: 40;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: yellow;
+  transition: 0.3s ease all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  place-content: center;
+}
+
+.contenido p {
+  text-align: center;
+  width: 300px;
+  font-family: GothamBook;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.contenido div {
+  display: flex;
+  justify-content: center;
+}
+
+.contenido button {
+  margin-right: 10px;
+}
+
+.contenido button:hover {
+  background: #ffffff;
+  box-shadow: 0px 4px 26px rgba(255, 255, 255, 0.68);
+}

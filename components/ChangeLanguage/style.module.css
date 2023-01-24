@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  z-index: 1;
+}
+.containerSelectLanguage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.languageSelect {
+  border-radius: 3px;
+  margin-right: 10px;
+  width: 35px;
+  height: 24px;
+}
+.iconArrow {
+  rotate: 180deg;
+  transition-duration: 500ms;
+}
+.iconArrowClose {
+  rotate: 0deg;
+  transition-duration: 500ms;
+}
+.titleSelect {
+  margin: 0 10px 0 0;
+  color: white;
+  font-family: GothamBook;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+}
+.contentDropDown {
+  position: absolute;
+  top: 40px;
+  left: -12px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+}
+.contentDropDownLanguage {
+  padding: 0;
+  margin-bottom: 3px;
+}
+.contentSelectionLanguage:hover {
+  background-color: #767676;
+}
+.contentSelectionLanguage {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  background: #424242;
+  flex-direction: row;
+  width: 114px;
+  padding: 10px;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .container {
+    z-index: 10;
+  }
+  .titleSelect {
+    font-size: 10px;
+  }
+  .languageSelect {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+  }
+  .iconArrowClose {
+    width: 10px;
+    height: 10px;
+  }
+  .iconArrow {
+    width: 10px;
+    height: 10px;
+  }
+  .contentSelectionLanguage {
+    width: 70px;
+    padding: 2px 0px 2px 8px;
+  }
+  .contentDropDown {
+    top: 20px;
+    left: -8px;
+  }
+}

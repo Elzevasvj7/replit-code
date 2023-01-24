@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  width: 158.81px;
+  height: 187.69px;
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 63.94px;
+    height: 75.56px;
+  }
+}

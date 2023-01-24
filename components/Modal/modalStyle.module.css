@@ -1,0 +1,35 @@
+.modal {
+  height: 500px;
+  width: 600px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid white;
+  border-radius: 44px;
+  padding: 10px;
+  text-align: center;
+  gap: 10px;
+}
+.button {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1024px) {
+  .modal {
+    width: 252px;
+    height: 312px;
+    border-radius: 12px;
+    font-size: 13px;
+  }
+  .button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-height: 525px) {
+  .modal {
+    height: 100%;
+  }
+}

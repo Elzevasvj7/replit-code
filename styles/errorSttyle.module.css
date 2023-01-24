@@ -1,0 +1,37 @@
+.contentVideo {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentHeader {
+  width: 100%;
+  display: flex;
+  top: 0;
+  position: absolute;
+  padding: 60px 60px 0px 60px;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+}
+.header {
+  display: flex;
+}
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  transform: rotateY(179deg);
+}
+@media (max-width: 900px) {
+  .logo img {
+    display: none;
+  }
+}

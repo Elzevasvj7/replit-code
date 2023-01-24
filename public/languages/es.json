@@ -1,0 +1,27 @@
+{
+  "login": {
+    "subTitle": "¡Es hora de empezar a vivir la experiencia Landian!",
+    "description": "Conecta tu Wallet para continuar",
+    "btnConnect": "Conectar Wallet"
+  },
+  "claim": {
+    "subTitle": "¡Es hora de empezar a vivir la experiencia Landian!",
+    "titleWelcome": "¡Hola!, bienvenido de nuevo",
+    "description": "¡Buenas noticias!, tienes algo especial para reclamar. ¡Esperamos que lo disfrutes!",
+    "btnMint": "Reclamar",
+    "download": "¡NFT minteado! Haz clic en el botón “Descargar SDK” para descargar tu Land.",
+    "btnDownload": "Descargar SDK",
+    "colorBlue": "Land disponible",
+    "colorWhite": "Área disponible",
+    "colorGray": "No disponible",
+    "colorGreen": "Zonas verdes",
+    "modalProcessing": "Procesando por favor espera un momento. Serás redirigido al siguiente paso.",
+    "modalError": "Oh no! algo ha salido  mal, inténtalo nuevamente.",
+    "btnAgain": "Intentar otra vez",
+    "btnReturn": "Atrás"
+  },
+  "error": {
+    "title": "¡ups! No tienes Lands en la Wallet registrada.",
+    "btn": "Regresar al menú"
+  }
+}
